@@ -1,0 +1,170 @@
+
+// variables 
+
+$dark-green : #005a43;
+$light-green : #6bc04b;
+$light-grey : #e2e3e3;
+
+
+
+// imports
+@import 'reset';
+
+
+html {
+	font-size: 10px;
+	font-family: "helvetica neue", helvetica, arial;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+div.body {
+	line-height:1.3;
+}
+
+header {
+	background-color: $dark-green;
+	padding: 20px 10px;
+	h1 {
+	font-size: 1.5rem;
+	text-align:right;
+	}
+}
+
+h1, h2, h3 {
+	font-weight: 100;
+	letter-spacing: .275rem;
+	text-transform: uppercase;
+	color: white;
+}
+
+h2 {
+	display: inline-block;
+	font-weight: 500;
+	margin: 3rem 0 3rem -8.5rem;
+	padding: .6rem 1rem .6rem 8rem;
+	background-color: transparentize($light-green, 0.2); 
+	text-transform: uppercase;
+	color: white;
+	font-size: 3rem;
+}
+
+h3 {
+	color: $dark-green;
+	margin: 1rem 0;
+	font-size: 2rem;
+}
+
+section {
+	padding: 1.5rem;
+}
+
+article {
+	padding: 1rem;
+}
+
+ng-map {
+	height: 500px;
+}
+
+
+#wrapper {
+	width:95%;
+	margin:auto;
+	position:relative;
+	background-image: url('../img/zigzag.png');
+}
+
+
+#main-content {
+	background-color: lighten($light-grey, 8%);
+	margin: 2rem 0 2rem 2rem;
+	width: 60%; 
+	float:left;
+	box-shadow: 3px 3px 5px #eeeeee;
+	div+em {
+		font-style: italic;
+		display:block;
+		padding: .1rem 0 1rem 0;
+	}
+
+	label {
+		display:inline-block;
+		background-color:$dark-green;
+		color: white;
+		text-align:center;
+		text-transform: uppercase;
+		font-weight: 100;
+		height: 9.5rem;
+		width: 9.5rem;
+		line-height: 9.5rem;
+		border-radius: 50%;
+		margin: 10px 10px 10px 0;
+		cursor: pointer;
+	}
+
+	input[type="radio"] {
+	 	display:none;
+	}
+
+	a:link {
+	text-decoration: none;
+	color: $dark-green;
+	}
+}
+
+nav#menu {
+	float:right;
+	width: 35%;
+	a{
+	display:block;
+	background-color:$light-green;
+	color: white;
+	margin: 2rem;
+	text-align:center;
+	padding: 3rem 0;
+	text-decoration: none;
+	font-size: 4rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	}
+}
+
+
+img[src$=".svg"] {
+
+	width: 75px;
+	position: absolute;
+	left: -30px;
+	top: -45px;
+}
+
+//classes
+
+.directory {
+	ul {
+	line-height: 1.5;
+	padding: 1em;
+	background-color: white;
+	border-radius: .5em;
+	}
+}
+
+.tags{
+	padding: 1rem 0 .5rem 0; 
+	color: $dark-green;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.background {
+	background-image: url('../img/background-faculty.jpg');
+	background-size: cover;
+}
+
+
+

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+ <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+ <script>
+ $(document).ready(function(){
+	 var maps, names =[], mapItem, mapBuildName, buildingList, selectedBuilding;
+
+	 //Get JSON
+	 $.getJSON('data/BUBuildings.json', function(data){
+		maps = data.features;
+
+		//Get array of building names from JSON file
+		for (var i = 0; i < maps.length; i++) {
+			mapItem = maps[i];
+			mapBuildName = mapItem.properties.name;
+			names.push(mapBuildName);
+		}
+		
+        //Sort array of building names alphabetically
+		names.sort();
+
+		//Build dropdown options list
+		for (var i = 0; i < names.length; i++) {
+			buildingList+= '<option value="' + names[i] +'">' + names[i] + '</option>';
+		}
+
+		//Get <select> list with #buildingList, assign to var selectList
+		selectList = document.getElementById('buildingList');
+		selectList.innerHTML = buildingList;
+		$('option').on('click', function(){
+			//console.log($(this).val());
+			selectedBuilding = $(this).val();
+			for (var i = 0; i < maps.length; i++) {
+			mapItem = maps[i];
+			mapBuildName = mapItem.properties.name;
+			if (mapBuildName == selectedBuilding) {
+				console.log(mapItem.properties.description, mapItem.geometry.coordinates);
+				}
+			}
+		})
+	 });
+ });
+ </script>
+
+ <section>
+ <select id="buildingList">
+ </select>
+</section>
+</body>
+</html>

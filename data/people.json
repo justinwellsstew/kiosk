@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Justin Stewart",
+    "phone": "607-591-4644",
+    "email": "stewartj@binghamton.edu",
+    "title" : "Web Developer",
+    "departments" : "Communications and Marketing", 
+    "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie justo ac justo hendrerit, ut commodo velit ornare. Mauris mollis euismod mi, sed vehicula ante sodales vestibulum. Praesent elementum lectus vel lacus consequat tincidunt vel id tortor. Donec malesuada justo eu est faucibus, et venenatis odio finibus. Mauris a augue ante. Praesent ullamcorper enim quis suscipit efficitur. Donec sit amet tristique metus. Cras tincidunt luctus nisl, eget porta est molestie vel. Curabitur congue posuere eros, non hendrerit magna lobortis et. Duis tincidunt risus non tortor placerat pellentesque. Vestibulum sed pellentesque est. Quisque volutpat purus in convallis congue. Mauris scelerisque ante vel elit vestibulum faucibus."
+  },
+  {
+    "name": "Justin Stew",
+    "title" : "Web Developer",
+    "phone": "607-591-4644",
+    "email": "stewartj1@binghamton.edu", 
+    "departments" : "Communications and Marketing",
+    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie justo ac justo hendrerit, ut commodo velit ornare. Mauris mollis euismod mi, sed vehicula ante sodales vestibulum. Praesent elementum lectus vel lacus consequat tincidunt vel id tortor. Donec malesuada justo eu est faucibus, et venenatis odio finibus. Mauris a augue ante. Praesent ullamcorper enim quis suscipit efficitur. Donec sit amet tristique metus. Cras tincidunt luctus nisl, eget porta est molestie vel. Curabitur congue posuere eros, non hendrerit magna lobortis et. Duis tincidunt risus non tortor placerat pellentesque. Vestibulum sed pellentesque est. Quisque volutpat purus in convallis congue. Mauris scelerisque ante vel elit vestibulum faucibus."
+  },
+  {
+    "name": "Justin art",
+    "title" : "Web Developer",
+    "phone": "607-591-4644",
+    "email": "stewartj2@binghamton.edu", 
+    "departments" : "Communications and Marketing",
+    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie justo ac justo hendrerit, ut commodo velit ornare. Mauris mollis euismod mi, sed vehicula ante sodales vestibulum. Praesent elementum lectus vel lacus consequat tincidunt vel id tortor. Donec malesuada justo eu est faucibus, et venenatis odio finibus. Mauris a augue ante. Praesent ullamcorper enim quis suscipit efficitur. Donec sit amet tristique metus. Cras tincidunt luctus nisl, eget porta est molestie vel. Curabitur congue posuere eros, non hendrerit magna lobortis et. Duis tincidunt risus non tortor placerat pellentesque. Vestibulum sed pellentesque est. Quisque volutpat purus in convallis congue. Mauris scelerisque ante vel elit vestibulum faucibus." 
+  },
+  {
+    "name": "Justin St. ewart",
+    "title" : "Web Developer",
+    "phone": "607-591-4644",
+    "email": "stewartj3@binghamton.edu", 
+    "departments" : "Communications and Marketing",
+    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie justo ac justo hendrerit, ut commodo velit ornare. Mauris mollis euismod mi, sed vehicula ante sodales vestibulum. Praesent elementum lectus vel lacus consequat tincidunt vel id tortor. Donec malesuada justo eu est faucibus, et venenatis odio finibus. Mauris a augue ante. Praesent ullamcorper enim quis suscipit efficitur. Donec sit amet tristique metus. Cras tincidunt luctus nisl, eget porta est molestie vel. Curabitur congue posuere eros, non hendrerit magna lobortis et. Duis tincidunt risus non tortor placerat pellentesque. Vestibulum sed pellentesque est. Quisque volutpat purus in convallis congue. Mauris scelerisque ante vel elit vestibulum faucibus."
+  }
+]

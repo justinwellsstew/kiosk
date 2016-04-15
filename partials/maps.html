@@ -1,0 +1,49 @@
+<h3>Campus Buildings</h3>
+<select ng-model = "selectedBuilding" ng-change="change()">
+<option ng-repeat="building in buildings track by $index" value = "{{building}}">
+{{building}}
+</option>
+</select>
+<div class="maps">
+  <ng-map zoom="17" center="42.089118,-75.966645">
+    <map-data on-click="onClick()"
+      load-geo-json="data/BUBuildings.json">
+
+      <marker 
+      
+      position="{{beach[1]}}, {{beach[2]}}"
+      z-index="{{beach[3]}}"></marker>
+    </map-data>
+  </ng-map>
+  
+
+
+<h3>{{name}}</h3>
+{{description}}
+</div>
+{{selectedBuilding}}
+
+<!-- <script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">I'm a modal!</h3>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li ng-repeat="item in items">
+                    <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
+                </li>
+            </ul>
+            Selected: <b>{{ selected.item }}</b>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+        </div>
+    </script>
+
+    <button type="button" class="btn btn-default" ng-click="open()">Open me!</button>
+   -->
+   
+    	
+
+

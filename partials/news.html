@@ -1,0 +1,18 @@
+
+<div class="news-section">
+<h2>News</h2> 
+			<div>
+			<label for="ccpa">CCPA</label><input type="radio" name="school" id="ccpa" value="ccpa" ng-model="query">
+			<label for="decker">Decker</label><input type="radio" name="school" id="decker" value="decker" ng-model="query">
+			<label for="harpur">Harpur</label><input type="radio" name="school" id="harpur" value="harpur" ng-model="query">
+			<label for="watson">Watson</label><input type="radio" name="school" id="watson" value="watson" ng-model="query">
+			</div>
+
+
+		      <article ng-repeat="new in news | filter:query">
+		        <h3>{{new.title}}</h3>
+				<div class="body">{{new.body}}</div>
+				<div class="tags"> Tags: {{new.tags.join(', ')}}</div>
+		        <em>{{new.date * 1000 | date:'MMMM d, yyyy'}}</em>
+		      </article>
+</div>		      

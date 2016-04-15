@@ -1,0 +1,12 @@
+<div class="directory">
+<h2>Directory</h2>
+      <article ng-repeat="person in people" >
+        <a href="#/details/{{people.indexOf(person)}}"><h3>{{person.name}}</h3></a>
+        <ul>
+			<li><h4>{{person.title}}</h4></li>
+			<li><a href="mailto:{{person.email}}">{{person.email}}</a></li>
+			<li>{{person.phone}}</li>
+			<li><em>{{person.departments}}</em></li>
+		</ul>
+      </article>
+</div>		      

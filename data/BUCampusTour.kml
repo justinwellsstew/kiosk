@@ -1,0 +1,822 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+    <Document>
+        <name>BU Campus Tour</name>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Academic Complex</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>1.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.089001</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.971854</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/1.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/1.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/1.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>Two glass buildings – which we call Academic A and B – are home to the School of Pharmacy and Pharmaceutical Sciences, the School of Management, the Decker School of Nursing and the Graduate School of Education. You'll find classrooms, student computer labs, a café, and the academic advising office for Harpur College of Arts and Sciences there as well as some real-world, high-end technology like the SIM people and SIM baby in Academic B. These specialized simulators look like people and can be programmed to breathe, bleed, talk and exhibit all kinds of symptoms, so nursing students can practice their skills before working with real patients. In Academic A, School of Management students have their own version of a high-tech simulated trading room that allows them to invest real money just like traders on Wall Street. And while we're talking about some of our undergraduate schools, we have five in all including the College of Community and Public Affairs, Decker School of Nursing and Harpur School of Arts and Sciences.</value>
+                </Data>
+            </ExtendedData>
+            <description>
+<![CDATA[
+<img src='http://binghamton.edu/mobi/data/tour/images/14/1.jpg' height="100" />
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/1.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/1.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>Two glass buildings – which we call Academic A and B – are home to the School of Pharmacy and Pharmaceutical Sciences, the School of Management, the Decker School of Nursing and the Graduate School of Education. You'll find classrooms, student computer labs, a café, and the academic advising office for Harpur College of Arts and Sciences there as well as some real-world, high-end technology like the SIM people and SIM baby in Academic B. These specialized simulators look like people and can be programmed to breathe, bleed, talk and exhibit all kinds of symptoms, so nursing students can practice their skills before working with real patients. In Academic A, School of Management students have their own version of a high-tech simulated trading room that allows them to invest real money just like traders on Wall Street. And while we're talking about some of our undergraduate schools, we have five in all including the College of Community and Public Affairs, Decker School of Nursing and Harpur School of Arts and Sciences.</p>]]></description>
+            <Point>
+                <coordinates>-75.971854,42.089001,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Lecture Hall</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>2.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.088419</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.971106</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/2.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/2.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>The recently-renovated, circular building includes 14 classrooms of varying sizes that can accommodate as few as 25 people or as many as 500. Each of the four quadrants of the Lecture Hall reflects a different season, and each one also uses environmentally friendly, energy-saving materials. Almost every classroom in the building is linked to high-tech equipment that supports varied teaching styles and encourages student engagement.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/2.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/2.mp3'/> <button style ="margin:10px">Audio Tour</button></a--><br/>
+<p style='font-size:x-small'>The recently-renovated, circular building includes 14 classrooms of varying sizes that can accommodate as few as 25 people or as many as 500. Each of the four quadrants of the Lecture Hall reflects a different season, and each one also uses environmentally friendly, energy-saving materials. Almost every classroom in the building is linked to high-tech equipment that supports varied teaching styles and encourages student engagement.</p>]]></description>
+            <Point>
+                <coordinates>-75.971106,42.088419,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Science Complex</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>3.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.091225</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.97093</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/3.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/3.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/3.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>The Science Complex is comprised of five buildings including a dedicated Science Library attached to Science 2. Different science disciplines are housed in each one. For example, Science 1 is where you'll find geological sciences, as well as anthropology, and Science 2 houses chemistry and physics. No matter the building or the discipline, undergraduate students have plenty of opportunities to gain hands-on research experience in the high-tech labs found in the Science Complex. The four-climate greenhouse in Science 3 – open during regular office hours — is home to more than 6,000 exotic plants and 1,400 species, and is one of the largest teaching and research facilities of its kind.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+               <img src='http://binghamton.edu/mobi/data/tour/images/14/3.jpg' height="100"/>
+<!--a href=' http://binghamton.edu/mobi/data/tour/audio/3.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/3.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>The Science Complex is comprised of five buildings including a dedicated Science Library attached to Science 2. Different science disciplines are housed in each one. For example, Science 1 is where you'll find geological sciences, as well as anthropology, and Science 2 houses chemistry and physics. No matter the building or the discipline, undergraduate students have plenty of opportunities to gain hands-on research experience in the high-tech labs found in the Science Complex. The four-climate greenhouse in Science 3 – open during regular office hours — is home to more than 6,000 exotic plants and 1,400 species, and is one of the largest teaching and research facilities of its kind.</p>]]></description>
+            <Point>
+                <coordinates>-75.97093,42.091225,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Glenn G. Bartle Library and Library Tower</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>4.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.088509</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.969702</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/4.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/4.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/4.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>At 15 stories, the library tower is the tallest building on campus and is where you can find the offices for faculty from many of the departments in Harpur College of Arts and Sciences. The Glenn G. Bartle Library is attached to the tower. In total, the four University libraries, including the Science Library, the University Downtown Center Library and the Information Commons – have more than 5 million holdings. Binghamton University students also have access to materials at more than 60 other SUNY campuses, plus a variety of online research tools. They even have a laptop, iPad and netbook lending program. The Bartle Library is open for study and research 24 hours a day Monday through Thursday throughout the semester, with slightly reduced hours on weekends, but goes to 24 hours all week during finals. </value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/4.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/4.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/4.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>At 15 stories, the library tower is the tallest building on campus and is where you can find the offices for faculty from many of the departments in Harpur College of Arts and Sciences. The Glenn G. Bartle Library is attached to the tower. In total, the four University libraries, including the Science Library, the University Downtown Center Library and the Information Commons – have more than 5 million holdings. Binghamton University students also have access to materials at more than 60 other SUNY campuses, plus a variety of online research tools. They even have a laptop, iPad and netbook lending program. The Bartle Library is open for study and research 24 hours a day Monday through Thursday throughout the semester, with slightly reduced hours on weekends, but goes to 24 hours all week during finals. </p>]]></description>
+            <Point>
+                <coordinates>-75.969702,42.088509,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Anderson Center for the Performing Arts/Fine Arts Building</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>5.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.090311</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.969182</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/5.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/5.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/5.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>Internationally renowned performances from rock to opera, ballet to modern dance, and large theatrical productions grace the world-class stage of the Anderson Center's 1,200-seat Osterhout Concert Theater. The sliding glass wall at the back of the theater retracts and opens onto a lawn for open-air seating on beautiful summer or early fall evenings. Smaller productions, as well as lectures, are often hosted in the Anderson Center's 400-seat Chamber Hall. Adjacent to the Anderson Center is the Fine Arts Building where you'll find the University Art Museum, an active, public museum where students can make connections from their work in the classroom to original works of art and the museum's permanent collection. Members of the community are welcome to enjoy the art as well. In addition, the Fine Arts Building is where you'll find the departments of theatre, music and art, the nearly 560-seat Watters Theater, and rooms for theatre, music and art classes, technical production and dance.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/5.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/5.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/5.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>Internationally renowned performances from rock to opera, ballet to modern dance, and large theatrical productions grace the world-class stage of the Anderson Center's 1,200-seat Osterhout Concert Theater. The sliding glass wall at the back of the theater retracts and opens onto a lawn for open-air seating on beautiful summer or early fall evenings. Smaller productions, as well as lectures, are often hosted in the Anderson Center's 400-seat Chamber Hall. Adjacent to the Anderson Center is the Fine Arts Building where you'll find the University Art Museum, an active, public museum where students can make connections from their work in the classroom to original works of art and the museum's permanent collection. Members of the community are welcome to enjoy the art as well. In addition, the Fine Arts Building is where you'll find the departments of theatre, music and art, the nearly 560-seat Watters Theater, and rooms for theatre, music and art classes, technical production and dance.</p>]]></description>
+            <Point>
+                <coordinates>-75.969182,42.090311,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Memorial Courtyard</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>6.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.089142</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.9686</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/6.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/6.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>This peaceful, open-air space, in the middle of the Fine Arts Building, is where students can study or just stretch out and enjoy some tranquility. You're certainly welcome to take some time to sit and reflect here. The courtyard was created to commemorates the 15 Binghamton alumni who lost their lives on September 11, 2001, so be sure to spend a moment or two at the memorial that honors their memory.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/6.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/6.mp3'/> <button style ="margin:10px">Audio Tour</button></a--><br/>br/>
+<p style='font-size:x-small'>This peaceful, open-air space, in the middle of the Fine Arts Building, is where students can study or just stretch out and enjoy some tranquility. You're certainly welcome to take some time to sit and reflect here. The courtyard was created to commemorates the 15 Binghamton alumni who lost their lives on September 11, 2001, so be sure to spend a moment or two at the memorial that honors their memory.</p>]]></description>
+            <Point>
+                <coordinates>-75.9686,42.089142,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Engineering Building</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>7.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.087717</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.968447</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/7.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/7.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/7.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>Some departments in the Thomas J. Watson School of Engineering and Applied Science call this building home, and others can be found in the $66 million-dollar Engineering and Science Building at the Innovative Technologies Complex, known as the ITC, that's located across the road on the east side of campus. All Watson students begin their coursework as freshman in the Engineering Design Division, where they explore many facets of engineering before their sophomore year, when they choose from one of five majors: biomedical engineering, mechanical engineering, systems science and industrial engineering, electrical and computer engineering, or computer science. Top-notch employers frequently recruit Watson students through on-campus interviews and students continue to receive multiple job offers or find success in graduate school.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+<img src='http://binghamton.edu/mobi/data/tour/images/14/7.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/7.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/7.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+Some departments in the Thomas J. Watson School of Engineering and Applied Science call this building home, and others can be found in the $66 million-dollar Engineering and Science Building at the Innovative Technologies Complex, known as the ITC, that's located across the road on the east side of campus. All Watson students begin their coursework as freshman in the Engineering Design Division, where they explore many facets of engineering before their sophomore year, when they choose from one of five majors: biomedical engineering, mechanical engineering, systems science and industrial engineering, electrical and computer engineering, or computer science. Top-notch employers frequently recruit Watson students through on-campus interviews and students continue to receive multiple job offers or find success in graduate school.</p>]]></description>
+            <Point>
+                <coordinates>-75.968447,42.087717,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Campus Safety</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>8.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.088332</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.968192</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/8.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/8.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>Along with working to ensure that our students have a memorable college experience at Binghamton University, we make safety a top priority. All campus buildings are secure and our residential halls are locked 24/7. Students use their electronic key cards to gain access to their residence halls. In emergency situations, look for the blue lights throughout campus which are easy to see at night. These highly visible lights mark phones that connect with Binghamton University Police as soon as someone picks up the receiver. Using GPS tracking, campus police can be at your location in under two minutes. Binghamton University Police, officially called New York State University Police — are New York state troopers and routinely patrol campus by car and bike. In addition the campus has walking escorts and a free, Safe Ride shuttle to take students anywhere on campus. Telephone numbers for these services are conveniently located at many locations. </value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/8.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/8.mp3'/> <button style ="margin:10px">Audio Tour</button></a--><br/>
+<p style='font-size:x-small'>Along with working to ensure that our students have a memorable college experience at Binghamton University, we make safety a top priority. All campus buildings are secure and our residential halls are locked 24/7. Students use their electronic key cards to gain access to their residence halls. In emergency situations, look for the blue lights throughout campus which are easy to see at night. These highly visible lights mark phones that connect with Binghamton University Police as soon as someone picks up the receiver. Using GPS tracking, campus police can be at your location in under two minutes. Binghamton University Police, officially called New York State University Police — are New York state troopers and routinely patrol campus by car and bike. In addition the campus has walking escorts and a free, Safe Ride shuttle to take students anywhere on campus. Telephone numbers for these services are conveniently located at many locations. </p>]]></description>
+            <Point>
+                <coordinates>-75.968192,42.088332,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>University Union</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>9.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.088447</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.967675</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/9.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/9.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/9.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>The University Union is the center of student life. The University Union West, with its distinctive clock tower – is home to many student organizations including WHRW and Pipe Dream, the University's student-managed radio station and newspaper, respectively. Don't forget to buy your first Binghamton sweatshirt at the University Bookstore! On the University Union side, in the recently renovated, original part of the building, Late Nite Binghamton is hopping on the weekends, as is the Undergrounds Café, bowling alley and video arcade. You'll also find key student services offices here, including the FleishmanCenter for Career and Professional Development, Center for Civic Engagement, Tutoring Center, Educational Opportunity Program and TRiO program. The Binghamton University MarketPlace offers specialty food shops and chain favorites including Starbucks and Red Mango, as well as spaces to gather with friends. The Food Co-op, in the basement, is your stop for organic food.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/9.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/9.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/9.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>The University Union is the center of student life. The University Union West, with its distinctive clock tower – is home to many student organizations including WHRW and Pipe Dream, the University's student-managed radio station and newspaper, respectively. Don't forget to buy your first Binghamton sweatshirt at the University Bookstore! On the University Union side, in the recently renovated, original part of the building, Late Nite Binghamton is hopping on the weekends, as is the Undergrounds Café, bowling alley and video arcade. You'll also find key student services offices here, including the FleishmanCenter for Career and Professional Development, Center for Civic Engagement, Tutoring Center, Educational Opportunity Program and TRiO program. The Binghamton University MarketPlace offers specialty food shops and chain favorites including Starbucks and Red Mango, as well as spaces to gather with friends. The Food Co-op, in the basement, is your stop for organic food.</p>]]></description>
+            <Point>
+                <coordinates>-75.967675,42.088447,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Chenango Champlain Collegiate Center</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>10.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.087963</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.963376</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/10.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/10.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/10.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>The Chenango Champlain Collegiate Center (commonly called C4) is the dining center for both the Dickinson and Newing residential communities. There's a shared kitchen and serving area with separate dining rooms for each community, and a connecting, outdoor patio. Food choices include deli, pizza, pasta, a Mongolian Wok, Halal, an international station, a soup/salad bar, a grill and a Kosher Korner. C4 also includes an academic center with seminar rooms for tutoring, group study, public speaking practice, computer research and printing. For music enthusiasts, the Newing side includes the “Broome Closet,” a soundproof practice room. On the Dickinson side, check out the Dickinson Community Players productions and the Dickinson Fireplace Lounge.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/10.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/10.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/10.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>The Chenango Champlain Collegiate Center (commonly called C4) is the dining center for both the Dickinson and Newing residential communities. There's a shared kitchen and serving area with separate dining rooms for each community, and a connecting, outdoor patio. Food choices include deli, pizza, pasta, a Mongolian Wok, Halal, an international station, a soup/salad bar, a grill and a Kosher Korner. C4 also includes an academic center with seminar rooms for tutoring, group study, public speaking practice, computer research and printing. For music enthusiasts, the Newing side includes the “Broome Closet,” a soundproof practice room. On the Dickinson side, check out the Dickinson Community Players productions and the Dickinson Fireplace Lounge.</p>]]></description>
+            <Point>
+                <coordinates>-75.963376,42.087963,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>College-In-The-Woods (CIW) Residential Community</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>11.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.085886</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.967009</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/11.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/11.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/11.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>If you picked up the key from Undergraduate Admissions during office hours, you can take a look inside the model residence room in Onondaga Hall. Each of the five buildings in CIW house between 240 and 340 residents and offer both suite-style and traditional, corridor-style living. CIW is one of our seven undergraduate residential communities. Each one of these communities has a faculty master, dedicated professional staff, resident directors and resident assistants on hand to support your academic and personal growth. All rooms on campus come equipped with free Internet, free cable and free on-campus phone service. Each room also includes a bed and mattress, lamp, desk, drawers, shelves and closet for each student. If they want to, students can rent a micro/fridge combination and it will be in their room when they arrive. Free laundry facilities are located in every residential community.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/11.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/11.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/11.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>If you picked up the key from Undergraduate Admissions during office hours, you can take a look inside the model residence room in Onondaga Hall. Each of the five buildings in CIW house between 240 and 340 residents and offer both suite-style and traditional, corridor-style living. CIW is one of our seven undergraduate residential communities. Each one of these communities has a faculty master, dedicated professional staff, resident directors and resident assistants on hand to support your academic and personal growth. All rooms on campus come equipped with free Internet, free cable and free on-campus phone service. Each room also includes a bed and mattress, lamp, desk, drawers, shelves and closet for each student. If they want to, students can rent a micro/fridge combination and it will be in their room when they arrive. Free laundry facilities are located in every residential community.</p>]]></description>
+            <Point>
+                <coordinates>-75.967009,42.085886,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Decker Student Health Services Center</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>12.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.08536</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.964273</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/12.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/12.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>High-quality healthcare and preventive services are available on campus at the Decker Student Health Services Center. In addition, students benefit from the services of  Harpur's Ferry, our award-winning, student-run ambulance service; the University Counseling Center; and a 24-hour crisis line.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/12.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/12.mp3'/> <button style ="margin:10px">Audio Tour</button></a--><br/>
+ <p style='font-size:x-small'>High-quality healthcare and preventive services are available on campus at the Decker Student Health Services Center. In addition, students benefit from the services of  Harpur's Ferry, our award-winning, student-run ambulance service; the University Counseling Center; and a 24-hour crisis line.</p>]]></description>
+            <Point>
+                <coordinates>-75.964273,42.08536,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>East Gym</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>13.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.091613</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.964845</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/13.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/13.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/13.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>The newly-renovated Rec Center at the East Gym is an all-inclusive facility dedicated to recreational programming. It offers a modern fitness center that we call FitSpace, as well as three multipurpose rooms for group fitness classes and club practices; and a wellness services suite.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/13.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/13.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/13.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>The newly-renovated Rec Center at the East Gym is an all-inclusive facility dedicated to recreational programming. It offers a modern fitness center that we call FitSpace, as well as three multipurpose rooms for group fitness classes and club practices; and a wellness services suite.</p>]]></description>
+            <Point>
+                <coordinates>-75.964845,42.091613,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Events Center</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>14.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.092864</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.97227</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/14.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/14.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/14.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>Show your school spirit and say hello to Baxter the Bearcat (our mascot) at the Events Center. Home to NCAA Division I Bearcats basketball, the Events Center is also a multipurpose facility that has hosted performers including Green Day, Ludacris, Jon Stewart, Drake and Demitri Martin, as well as all University Commencement ceremonies, the annual Basketball Showcase during Homecoming, the Relay for Life and more! Right nearby, check out the synthetic-turf fields at the Bearcats Sports Complex, where our men's and women's soccer and lacrosse teams play.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+                <img src='http://binghamton.edu/mobi/data/tour/images/14/14.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/14.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/14.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>Show your school spirit and say hello to Baxter the Bearcat (our mascot) at the Events Center. Home to NCAA Division I Bearcats basketball, the Events Center is also a multipurpose facility that has hosted performers including Green Day, Ludacris, Jon Stewart, Drake and Demitri Martin, as well as all University Commencement ceremonies, the annual Basketball Showcase during Homecoming, the Relay for Life and more! Right nearby, check out the synthetic-turf fields at the Bearcats Sports Complex, where our men's and women's soccer and lacrosse teams play.</p>]]></description>
+            <Point>
+                <coordinates>-75.97227,42.092864,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#icon-503-DB4436</styleUrl>
+            <name>Nature Preserve</name>
+            <ExtendedData>
+                <Data name='string'>
+                    <displayName>tour_name</displayName>
+                    <value>Self-Guided Tour</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>tour_code</displayName>
+                    <value>SGT</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>stop_id</displayName>
+                    <value>15.0</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LATITUDE</displayName>
+                    <value>42.083189</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>LONGITUDE</displayName>
+                    <value>-75.969161</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>address</displayName>
+                    <value></value>
+                </Data>
+                <Data name='string'>
+                    <displayName>image_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/images/14/15.jpg</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>audio_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/audio/15.mp3</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>video_url</displayName>
+                    <value>http://binghamton.edu/mobi/data/tour/video/14/15.mp4</value>
+                </Data>
+                <Data name='string'>
+                    <displayName>description</displayName>
+                    <value>No matter the season – take a walk through our 190-acre Nature Preserve composed of woods and a pond as well as a habitat for year-round and migrating birds, deer and native plant life. We call it Binghamton's largest classroom and lab, as well as a welcome retreat for students who want to get some fresh air.</value>
+                </Data>
+            </ExtendedData>
+            <description><![CDATA[
+<img src='http://binghamton.edu/mobi/data/tour/images/14/15.jpg' height="100"/>
+<!--a href='http://binghamton.edu/mobi/data/tour/audio/15.mp3'/> <button style ="margin:10px">Audio Tour</button></a-->
+<a href='http://binghamton.edu/mobi/data/tour/video/14/15.mp4'> <button style ="margin:10px">Video Tour</button></a><br/>
+<p style='font-size:x-small'>No matter the season – take a walk through our 190-acre Nature Preserve composed of woods and a pond as well as a habitat for year-round and migrating birds, deer and native plant life. We call it Binghamton's largest classroom and lab, as well as a welcome retreat for students who want to get some fresh air.</p>]]></description>
+            <Point>
+                <coordinates>-75.969161,42.083189,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Style id='icon-503-DB4436'>
+            <IconStyle>
+                <color>50147800</color>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://binghamton.edu/steve/maps/images/tour.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    </Document>
+</kml>
