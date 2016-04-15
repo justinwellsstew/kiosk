@@ -5,14 +5,14 @@
 </option>
 </select>
 <div class="maps">
-  <ng-map zoom="17" center="42.089118,-75.966645">
+  <ng-map zoom="17" center="{{valuex}}, {{valuey}}">
     <map-data on-click="onClick()"
       load-geo-json="data/BUBuildings.json">
 
       <marker 
-      
-      position="{{beach[1]}}, {{beach[2]}}"
-      z-index="{{beach[3]}}"></marker>
+      icon = "{{icon}}",
+      position="{{valuex}}, {{valuey}}"
+      z-index="{{valuez}}"></marker>
     </map-data>
   </ng-map>
   
