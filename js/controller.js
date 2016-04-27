@@ -16,7 +16,15 @@
         });
       });
 
-      kioskController.controller('DirectoryCtrl', function ($scope, $http){
+      kioskController.controller('DirectoryCtrl', function ($scope, $http, $location, $anchorScroll){
+        $scope.scrollTo = function(id) {
+          var old = $location.hash();
+          $location.hash(id);
+          $anchorScroll();
+          //reset to old to keep any additional routing logic from kicking in
+          $location.hash(old);
+        };
+        $scope.alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
         $http.get('data/people.json').success(function(data) {
           $scope.people = data;
         });

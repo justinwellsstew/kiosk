@@ -1,8 +1,7 @@
  var myApp = angular.module('myApp', [
   'ngMap',
   'ngRoute', 
-  'kioskController', 
-  'ui.bootstrap'
+  'kioskController'
   ]);
 
 

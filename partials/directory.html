@@ -1,5 +1,8 @@
 <div class="directory">
 <h2>Directory</h2>
+<ul >
+	<li ng-repeat="letter in alpha"  style="display:inline-block; width: 1.75em"><a ng-click="scrollTo('H')">{{letter}}</li>
+</ul>
       <article ng-repeat="person in people" >
         <a href="#/details/{{people.indexOf(person)}}"><h3>{{person.name}}</h3></a>
         <ul>
@@ -9,4 +12,5 @@
 			<li><em>{{person.departments}}</em></li>
 		</ul>
       </article>
+      <h4 id="H">H</h4>
 </div>		      
