@@ -1,4 +1,12 @@
  var kioskController = angular.module('kioskController', []);
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Sidebar Controller 
+///////////////////////////////////////////////////////////////////////////// 
+
+
      
       kioskController.controller('SideCtrl', function($scope){
         $(document).ready(function(){
@@ -9,6 +17,14 @@
           });
         });
       }); 
+
+
+//////////////////////////////////////////////////////////////////////////////
+// News Controller 
+///////////////////////////////////////////////////////////////////////////// 
+
+
+
      
       kioskController.controller('NewsCtrl', function ($scope, $http){
         $http.get('data/news.json').success(function(data) {
@@ -16,26 +32,50 @@
         });
       });
 
-      kioskController.controller('DirectoryCtrl', function ($scope, $http, $location, $anchorScroll){
-        $scope.scrollTo = function(id) {
-          var old = $location.hash();
-          $location.hash(id);
-          $anchorScroll();
-          //reset to old to keep any additional routing logic from kicking in
-          $location.hash(old);
-        };
-        $scope.alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-        $http.get('data/people.json').success(function(data) {
-          $scope.people = data;
-        });
+
+//////////////////////////////////////////////////////////////////////////////
+// Directory Controller 
+/////////////////////////////////////////////////////////////////////////////  
+
+
+
+      kioskController.controller('DirectoryCtrl', function ($scope, $http){
+
+      $scope.change = function(){
+      $http({
+        dataType: "json",
+        url: "https://www.binghamton.edu/webapps/directory/dept/profile?id="+$scope.selectedDepartment+'"',
+        // data: {
+        //     dept: '07A02D8A19BD81E8F8B10B691AB9BF58',
+        //     output: 'json',
+        //     cols: 'ABHGCPQM',
+        //     vkey: '9D6993EEC1865C161BF329FB7FC784FC'
+        //     }
+      }).success(function(data){
+
+            $scope.employees = data.rows;
       }); 
 
-      kioskController.controller('DetailsCtrl', function ($scope, $http, $routeParams) {
-        $http.get('data/people.json').success(function(data) {
-         $scope.people = data;
-         $scope.whichItem = $routeParams.itemId;
-        });
-      });  
+   }   
+
+// var searchSuccess = function(returnData){
+//     var userRecord;
+//     var dataSection = $('#data');
+//     $.each(returnData.rows, function(key, value){
+//         userRecord  = '<h2>' + value.FullName + '</h2>' + value.DirectoryNumber + '<br/><a href="mailto:'+value.Email+'">' + value.Email + '</a><br/>';
+//         dataSection.append(userRecord);
+//     });
+// }   
+      
+});  
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Map Controller 
+///////////////////////////////////////////////////////////////////////////// 
+
+
 
       kioskController.controller('MapsCtrl', function(NgMap, $scope, $http) {
         
@@ -64,7 +104,7 @@
 
       //Get array of building names from JSON file
       var names = [];
-      //var buildingList =[];
+
       for (var i = 0; i < $scope.maps.length; i++) {
         var mapItem = $scope.maps[i];
         var mapBuildName = mapItem.properties.name;
@@ -96,65 +136,14 @@
     });
 
 
-//code for Modal window;
-
-//   kioskController.controller('ModalDemoCtrl', function ($scope, $uibModal, $log) {
-
-//   $scope.items = ['item1', 'item2', 'item3'];
-
-//   $scope.animationsEnabled = true;
-
-//   $scope.open = function () {
-
-//     var modalInstance = $uibModal.open({
-//       animation: $scope.animationsEnabled,
-//       templateUrl: 'myModalContent.html',
-//       controller: 'ModalInstanceCtrl',
-//       size: 'small',
-//       resolve: {
-//         items: function () {
-//           return $scope.items;
-//         }
-//       }
-//     });
-
-//     modalInstance.result.then(function (selectedItem) {
-//       $scope.selected = selectedItem;
-//     }, function () {
-//       $log.info('Modal dismissed at: ' + new Date());
-//     });
-//   };
-
-//   $scope.toggleAnimation = function () {
-//     $scope.animationsEnabled = !$scope.animationsEnabled;
-//   };
-
-// });
-
-        
-
-      
-
-//       kioskController.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, items) {
-
-//         $scope.items = items;
-//         $scope.selected = {
-//           item: $scope.items[0]
-//         };
-
-//         $scope.ok = function () {
-//           $uibModalInstance.close($scope.selected.item);
-//         };
-
-//         $scope.cancel = function () {
-//           $uibModalInstance.dismiss('cancel');
-//         };
-//       });
+//////////////////////////////////////////////////////////////////////////////
+// Calendar Controller 
+/////////////////////////////////////////////////////////////////////////////      
 
 
-      kioskController.controller('CalendarCtrl', function ($scope) {
-      })   
-      
+kioskController.controller('CalendarCtrl', function ($scope) {
+})   
+
       
       
       

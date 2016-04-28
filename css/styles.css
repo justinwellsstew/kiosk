@@ -42,9 +42,6 @@ html {
 body {
   font-size: 1.6rem; }
 
-div.body {
-  line-height: 1.3; }
-
 header {
   background-color: #005a43;
   padding: 20px 10px; }
@@ -81,6 +78,16 @@ article {
 
 ng-map {
   height: 500px; }
+
+.record {
+  line-height: 125%;
+  font-weight: 400;
+  color: #333333;
+  width: 44%;
+  float: left;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: white; }
 
 #wrapper {
   width: 95%;
