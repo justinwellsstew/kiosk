@@ -15,11 +15,11 @@
       templateUrl : 'partials/directory.html',
       controller: 'DirectoryCtrl'
     }).
-    when('/details/:itemId', {
-      templateUrl : 'partials/details.html',
-      controller: 'DetailsCtrl'
-    }).
     when('/maps/', {
+      templateUrl : 'partials/maps.html',
+      controller: 'MapsCtrl'
+    }).
+     when('/maps/:buildingId', {
       templateUrl : 'partials/maps.html',
       controller: 'MapsCtrl'
     }).

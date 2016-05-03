@@ -41,6 +41,9 @@
 
       kioskController.controller('DirectoryCtrl', function ($scope, $http){
 
+      //set default value for selected department
+      $scope.selectedDepartment ="07A02D8A19BD81E8F8B10B691AB9BF58";  
+
       $scope.change = function(){
       $http({
         dataType: "json",
@@ -77,19 +80,13 @@
 
 
 
-      kioskController.controller('MapsCtrl', function(NgMap, $scope, $http) {
+      kioskController.controller('MapsCtrl', function(NgMap, $scope, $http, $routeParams) {
         
-
         //set default values for map
         $scope.valuex = 42.089118;
         $scope.valuey = -75.966645;
         $scope.zoom = 17;
 
-
-      //get map information 
-        // NgMap.getMap().then(function(map){
-        //   $scope.map = map;
-        // });
 
         $scope.onClick = function(event){
           $scope.name = event.feature.R.name;
@@ -100,29 +97,30 @@
 
       $http.get("data/BUBuildings.json")
       .success(function(data) {
-        $scope.maps = data.features; 
+        $scope.buildings = data.features; 
 
-      //Get array of building names from JSON file
-      var names = [];
+           
+      //get selected building if it is passed in from Directory
+      if($routeParams.buildingId){
+        $scope.selectedBuilding = $routeParams.buildingId;
+          angular.forEach($scope.buildings, function(value, key) {
+            console.log(key);
+          if($scope.selectedBuilding == value.properties.abbr){ 
+          $scope.name = value.properties.name;
+          $scope.description = value.properties.description;
+          $scope.icon = "img/marker.png";
+          $scope.valuey =value.geometry.coordinates[0][0][0];
+          $scope.valuex =value.geometry.coordinates[0][0][1];
+          $scope.valuez = value.geometry.coordinates[0][0][2];
+            };
+         });
+        }
+      });
 
-      for (var i = 0; i < $scope.maps.length; i++) {
-        var mapItem = $scope.maps[i];
-        var mapBuildName = mapItem.properties.name;
-        names.push(mapBuildName);
-      }
-    
-      //Sort array of building names alphabetically
-        names.sort();
-
-      //Assign building names to scope variable
-        $scope.buildings = names;
-        });
-
-        $scope.selectedBuilding;
-
+      //get selected building if selected from dropdown
        $scope.change = function(){ 
-        angular.forEach($scope.maps, function(value, key) {
-          if($scope.selectedBuilding == value.properties.name){ 
+        angular.forEach($scope.buildings, function(value, key) {
+          if($scope.selectedBuilding == value.properties.abbr){ 
           $scope.name = value.properties.name;
           $scope.description = value.properties.description;
           $scope.icon = "img/marker.png";
@@ -134,6 +132,7 @@
 
       };
     });
+
 
 
 //////////////////////////////////////////////////////////////////////////////

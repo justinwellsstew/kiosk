@@ -1,8 +1,10 @@
 <div class="directory">
 <h2>Directory</h2> 
 <br/>
+
+<h3>Search by Department Name:</h3>
 <select  ng-model = "selectedDepartment" ng-change="change()">
-    <option value="6AA2989D71C1603E9EE075EF561F31FD">Academic Affairs, Office of the Executive VP and  Provost</option>
+    <option value="6AA2989D71C1603E9EE075EF561F31FD" selected>Academic Affairs, Office of the Executive VP and  Provost</option>
     <option value="63E6C5D28E15A063C3C8860641562C4B">Administrative Affairs, Office of the Associate Vice President</option>
     <option value="C5CEDF7CBE822ACA6ED96C6F17040053">Advancement, Division of </option>
     <option value="ED2F07B896A39F5E427165941EC4D087">Africana Studies</option>
@@ -226,7 +228,7 @@
 		        <em>{{employee.Title}}</em><br/>
 		        {{employee.DirectoryNumber}}<br/>
 		        {{employee.Email}}<br/>
-		        <a href="#">{{employee.Location}}</a>
+		        <a href="#/maps/{{employee.BuildingID}}">{{employee.Location}}</a>
 </div> 
 
 <!-- <h2>{{selectedBuilding}}</h2> -->
