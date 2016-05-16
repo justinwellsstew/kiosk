@@ -61,9 +61,33 @@ article {
 	padding: 1rem;
 }
 
-ng-map {
-	height: 500px;
+select {
+	margin-left: 1em;
+	background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 1px solid green;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
 }
+
+.leaflet{
+	width:100%; 
+	height:500px;
+}
+.angular-leaflet-control-layers {
+            position: absolute;
+            background: white;
+            z-index: 100;
+            left: 10px;
+            top: 100px;
+            width: 200px;
+            box-shadow: 1px 1px 5px #333;
+            padding: 5px;
+        }
 
 .record{
 line-height: 125%;
@@ -95,7 +119,7 @@ background-color: white}
 		padding: .1rem 0 1rem 0;
 	}
 
-	label {
+	#filter label {
 		display:inline-block;
 		background-color:$dark-green;
 		color: white;
@@ -110,7 +134,7 @@ background-color: white}
 		cursor: pointer;
 	}
 
-	input[type="radio"] {
+	#filter input[type="radio"] {
 	 	display:none;
 	}
 
@@ -170,6 +194,63 @@ img[src$=".svg"] {
 	background-image: url('../img/background-faculty.jpg');
 	background-size: cover;
 }
+.buildingsColor {
+	display:inline-block; 
+	width:200px; 
+	background-color: lighten(blue, 30%); 
+	color: white; 
+	padding:.5em; 
+	text-align: center; 
+	text-transform: uppercase;
+	margin: 1em; 
+	cursor: pointer;
+}
+
+.parkingColor {
+	display:inline-block; 
+	width:200px; 
+	background-color: lighten(red, 30%); 
+	color: white; 
+	padding:.5em; 
+	text-align: center;
+	text-transform: uppercase; 
+	margin: 1em;
+	cursor: pointer;
+}
+//Directory
+#section-header, #site-header, #search-module, #share-module, aside.pod, nav#cal-nav, footer#site-footer{
+	display: none;
+}
+ 
+.eventList > div {
+    margin: 1rem;
+	padding: 1rem;
+
+	.evTime {
+	font-size:3rem;
+    font-weight: 300;
+	}
+	
+}
+.eventList div.event:nth-child(odd){
+	background-color: #eeeeee;
+	
+} 
+
+//search-box
+
+#search-box {
+	z-index: 10;
+	position: absolute;
+	width: 80%;
+	margin: auto;
+	background-color:white;
+	box-shadow: 5px 5px 20px #333333;
+}
+
+
+
+
 
 
 

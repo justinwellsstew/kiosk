@@ -1,5 +1,5 @@
  var myApp = angular.module('myApp', [
-  'ngMap',
+  'leaflet-directive',
   'ngRoute', 
   'kioskController'
   ]);
@@ -31,6 +31,16 @@
       redirectTo: '/news'
     });
   }]);
+
+  myApp.config(function($sceDelegateProvider) {
+    $sceDelegateProvider.resourceUrlWhitelist([
+        'self',
+        'https://www.binghamton.edu/webapps/calendar/**',
+        'https://www.binghamton.edu/webapps/directory/dept/profile/**'
+    ]);
+  });
+
+
      
       
 

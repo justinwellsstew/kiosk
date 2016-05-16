@@ -59,7 +59,19 @@
             $scope.employees = data.rows;
       }); 
 
-   }   
+   } 
+
+   var search = $('#search'); 
+   var searchBox = $('#search-box');
+   search.on('click', function(){
+    searchBox.toggle();
+   });
+
+   searchBox.find('input').on('change', function(){
+    searchBox.toggle();
+   });
+
+
 
 // var searchSuccess = function(returnData){
 //     var userRecord;
@@ -80,19 +92,85 @@
 
 
 
-      kioskController.controller('MapsCtrl', function(NgMap, $scope, $http, $routeParams) {
-        
-        //set default values for map
-        $scope.valuex = 42.089118;
-        $scope.valuey = -75.966645;
-        $scope.zoom = 17;
+      kioskController.controller('MapsCtrl', function($scope, $http, $routeParams) {
+
+        angular.extend($scope, {
+    center: {
+      lat: 42.089118,
+      lng: -75.966645,
+      zoom: 17
+    },
+    layers: {
+            baselayers: {
+                googleHybrid: {
+                    name: 'Google Hybrid',
+                    layerType: 'HYBRID',
+                    type: 'google'
+                },
+                googleRoadmap: {
+                    name: 'Google Streets',
+                    layerType: 'ROADMAP',
+                    type: 'google'
+                },
+            },
+            overlays:{}
+        },
+        layercontrol: {
+                    icons: {
+                      uncheck: "fa fa-toggle-off",
+                      check: "fa fa-toggle-on"
+                    }
+               }         
+  });
+
+  $scope.markers = new Array();      
+
+    $http.get("data/BUBuildings.json").success(function(data, status) {
+            angular.extend($scope.layers.overlays, {
+                buildings: {
+                    name:'Buildings',
+                    type: 'geoJSONShape',
+                    data: data,
+                    visible: true,
+                    layerOptions: {
+                        style: {
+                                color: '#000',
+                                fillColor: 'blue',
+                                weight: 2.0,
+                                opacity: 0.4,
+                                fillOpacity: 0.2
+                        }
+                    }
+                }
+            });
+        });
+    $http.get("data/parkingLots.json").success(function(data, status) {
+            angular.extend($scope.layers.overlays, {
+                parking: {
+                    name:'Parking Lots',
+                    type: 'geoJSONShape',
+                    data: data,
+                    visible: true,
+                    layerOptions: {
+                        style: {
+                                color: '#000',
+                                fillColor: 'red',
+                                weight: 2.0,
+                                opacity: 0.4,
+                                fillOpacity: 0.2
+                        }
+                    }
+                }
+            });
+        });
 
 
-        $scope.onClick = function(event){
-          $scope.name = event.feature.R.name;
-          $scope.description = event.feature.R.description;
-          console.log(event);
-        }
+
+        // $scope.onClick = function(event){
+        //   $scope.name = event.feature.R.name;
+        //   $scope.description = event.feature.R.description;
+        //   console.log(event);
+        // }
 
 
       $http.get("data/BUBuildings.json")
@@ -104,14 +182,18 @@
       if($routeParams.buildingId){
         $scope.selectedBuilding = $routeParams.buildingId;
           angular.forEach($scope.buildings, function(value, key) {
-            console.log(key);
           if($scope.selectedBuilding == value.properties.abbr){ 
           $scope.name = value.properties.name;
           $scope.description = value.properties.description;
-          $scope.icon = "img/marker.png";
-          $scope.valuey =value.geometry.coordinates[0][0][0];
-          $scope.valuex =value.geometry.coordinates[0][0][1];
-          $scope.valuez = value.geometry.coordinates[0][0][2];
+          $scope.center.lng =value.geometry.coordinates[0][0][0];
+          $scope.center.lat =value.geometry.coordinates[0][0][1];
+          $scope.center.zoom = 18;
+          $scope.markers.push({
+                    lng: value.geometry.coordinates[0][0][0],
+                    lat: value.geometry.coordinates[0][0][1],
+                    focus: true,
+                    message: value.properties.name
+                });
             };
          });
         }
@@ -123,25 +205,31 @@
           if($scope.selectedBuilding == value.properties.abbr){ 
           $scope.name = value.properties.name;
           $scope.description = value.properties.description;
-          $scope.icon = "img/marker.png";
-          $scope.valuey =value.geometry.coordinates[0][0][0];
-          $scope.valuex =value.geometry.coordinates[0][0][1];
-          $scope.valuez = value.geometry.coordinates[0][0][2];
-        };
-      });
-
-      };
-    });
-
-
+          $scope.center.lng =value.geometry.coordinates[0][0][0];
+          $scope.center.lat =value.geometry.coordinates[0][0][1];
+          $scope.center.zoom = 18;
+          $scope.markers.push({
+                    lng: value.geometry.coordinates[0][0][0],
+                    lat: value.geometry.coordinates[0][0][1],
+                    focus: true,
+                    message: value.properties.name
+                });
+              };
+           });
+          };
+        });
 
 //////////////////////////////////////////////////////////////////////////////
 // Calendar Controller 
 /////////////////////////////////////////////////////////////////////////////      
 
 
-kioskController.controller('CalendarCtrl', function ($scope) {
-})   
+kioskController.controller('CalendarCtrl', function ($scope, $http) {
+  $http.get('https://www.binghamton.edu/webapps/calendar/').success(function(data, status){
+    $scope.calendar = data;
+    console.log($scope.calendar);
+  });
+});   
 
       
       

@@ -1,50 +1,22 @@
-<h3>Campus Buildings</h3>
-<select ng-model = "selectedBuilding" ng-change="change()">
-<option ng-repeat="building in buildings" value = '{{building.properties.abbr}}'>
+
+<span class="buildingsColor"> Search Buildings</span>
+<span class="parkingColor">Search Parking</span>
+<select ng-model = "selectedBuilding" ng-change="change()" placeholder="Select Building">
+<option ng-repeat="building in buildings" value = '{{building.properties.abbr}}' >
 {{building.properties.name}}
 </option>
 </select>
 <br/>
+<br/>
+
 <div class="maps">
-  <ng-map zoom="17" center="{{valuex}}, {{valuey}}">
-    <map-data on-click="onClick()"
-      load-geo-json="data/BUBuildings.json">
-    <map-data 
-      load-geo-json="data/parkingLot.json">  
-
-      <marker 
-      icon = "{{icon}}",
-      position="{{valuex}}, {{valuey}}"
-      z-index="{{valuez}}"></marker>
-    </map-data>
-  </ng-map>
-  
-
-
+  <leaflet class="leaflet"  markers="markers" center="center" layers="layers"><layercontrol order="normal" icons="layercontrol.icons" auto-hide-opacity="true" show-groups="true"
+            title="Layer Manager" base-title="Base Layers" overlays-title="Overlays Layers"></layercontrol></leaflet>
 <h3>{{name}}</h3>
 {{description}}
 </div>
 
-<!-- <script type="text/ng-template" id="myModalContent.html">
-        <div class="modal-header">
-            <h3 class="modal-title">I'm a modal!</h3>
-        </div>
-        <div class="modal-body">
-            <ul>
-                <li ng-repeat="item in items">
-                    <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
-                </li>
-            </ul>
-            Selected: <b>{{ selected.item }}</b>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
-        </div>
-    </script>
 
-    <button type="button" class="btn btn-default" ng-click="open()">Open me!</button>
-   -->
    
     	
 
