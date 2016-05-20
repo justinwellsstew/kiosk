@@ -220,12 +220,4 @@ img[src$=".svg"] {
 .eventList div.event:nth-child(odd) {
   background-color: #eeeeee; }
 
-#search-box {
-  z-index: 10;
-  position: absolute;
-  width: 80%;
-  margin: auto;
-  background-color: white;
-  box-shadow: 5px 5px 20px #333333; }
-
 /*# sourceMappingURL=styles.css.map */
